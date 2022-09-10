@@ -1,43 +1,43 @@
-body {
-background-color: #F5F5F5;
-color: #757575;
+root {
+    --pramari
 }
 
 ul {
     list-style: none;
 }
 
+body {
+  background-color: #f5f5f5;
+  color: #757575;
+}
+/* nav */
 .logo {
-    color: #2196F3;
+  color: #2196f3;
 }
 
 .site-nav .link {
-color: #212121;
+  color: #212121;
 }
 
-.site-nav .link:hover, 
+.site-nav .link:hover,
 .site-nav .link:focus {
-    color: #2196F3;
+  color: #2196f3;
+}
+/* hero */
+.hero .hero-title {
+    color: #FFFFFF;
+}
+/* main */
+.section .section-desc {
+  color: #212121;
+}
+/* section */
+.section .section-title {
+  color: #212121;
+}
+/* avatar */
+.section .section-avatar {
+  color: #212121;
 }
 
-.section-desc {
-    color: #212121;
-}
 
-.section-title {
-    color: #212121;
-}
-
-
-/* цвет заглавий #212121 */
-/* вторичный цвет #757575 */
-/* web #2196F3 */
-/* studio #FFFFFF */
-/* студія, портфоліо, контакти актив #2196F3 */
-/* ЄФЕКТИВНЕ РІШЕННЯ #FFFFFF */
-/* кнопка(замовити послугу) #2196F3 */
-/* кнопка #2196F3 */
-/* цвет цвета текста в кнопке #FFFFFF */
-/* почта и номер в футуре #FFFFFF 60 % */
-/* фон #F5F5F5 */
-/* вторичний фон #2F303A */
