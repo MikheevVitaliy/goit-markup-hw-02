@@ -83,7 +83,7 @@ section .section-avatar {
   color: var(--title-text-color);
 }
 /* batton */
-.hero .batton {
+.hero .batton { 
   background-color: #2196f3;
   color: #ffffff;
 }
@@ -97,13 +97,9 @@ footer {
 }
 
 footer .logo {
-  color: #2196f3;
+  color: #ffffff;
 }
 
-footer .logo:hover,
-footer .logo:focus {
-  color: #8df3ee;
-}
 /* address */
 footer .address {
   color: #ffffff;
