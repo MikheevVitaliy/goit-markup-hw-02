@@ -13,11 +13,17 @@ body {
 }
 /* nav */
 .logo {
+  color: #000000;
+}
+
+.logo .accent {
   color: #2196f3;
 }
 
 .logo:hover,
-.logo:focus {
+.logo:focus,
+.logo .accent:hover,
+.logo .accent:focus {
   color: #8df3ee;
 }
 
@@ -27,6 +33,10 @@ body {
 
 .site-nav .link:hover,
 .site-nav .link:focus {
+  color: #2196f3;
+}
+
+.site-nav .link.current {
   color: #2196f3;
 }
 
@@ -73,7 +83,7 @@ section .section-avatar {
   color: var(--title-text-color);
 }
 /* batton */
-.batton {
+.hero .batton {
   background-color: #2196f3;
   color: #ffffff;
 }
